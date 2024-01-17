@@ -7,7 +7,6 @@ def bmi_():
         print("please enter an integer number and try again aa ")
         bmi_()
     else:
-        # Your code below this line 👇
         bmi = weight / (height * height)
         if bmi < 18.5:
             print(f"Your bmi is {bmi}, you are underweight.")
