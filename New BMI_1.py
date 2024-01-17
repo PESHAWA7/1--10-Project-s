@@ -4,7 +4,7 @@ def bmi_():
         height = float(input("inter your height, please: "))  # in meters e.g., 1.55
         weight = int(input("inter your weight, please: "))  # in kilograms e.g., 72
     except ValueError:
-        print("please enter an integer number and try again aa ")
+        print("please enter an integer number and try again ")
         bmi_()
     else:
         bmi = weight / (height * height)
